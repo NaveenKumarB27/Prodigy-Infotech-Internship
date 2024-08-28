@@ -2,7 +2,7 @@ TASK 2 : Stopwatch Web Application
 
 PAGE NAME : Stopwatch
 
-WEBSITE: https://adorable-semolina-fb8316.netlify.app/
+WEBSITE: stopwatch-exe.netlify.app
 
 
 DESCRIPTION:-
