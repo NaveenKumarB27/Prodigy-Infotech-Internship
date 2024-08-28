@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+  background: #1c1c1c; /* Dark background */
+  color: #f0f0f0; /* Light text color */
+}
+
+header {
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+h2 {
+  margin: 10px 0;
+  font-weight: normal;
+}
+
+nav {
+  background: #333; /* Dark background for navigation */
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #ffffff; /* White text for links */
+  text-decoration: none;
+  padding: 10px 15px;
+  transition: background 0.3s, transform 0.3s; /* Smooth background transition and transform */
+}
+
+nav ul li a:hover {
+  background: #555; /* Dark gray background on hover */
+  border-radius: 5px;
+  transform: scale(1.1); /* Slightly enlarge the link */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content */
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+  width: 80%; /* Center section width */
+  max-width: 600px; /* Maximum width for sections */
+  border: 1px solid #444; /* Darker border */
+  border-radius: 5px;
+  background: #2c2c2c; /* Dark gray background for sections */
+  animation: slideIn 0.5s; /* Slide-in effect */
+}
+
+@keyframes slideIn {
+  from { transform: translateY(20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+h3 {
+  margin-top: 0;
+  color: #ffffff; /* White color for section headings */
+}
+
+.tiles {
+  display: flex;
+  flex-wrap: wrap; /* Allow tiles to wrap */
+  justify-content: center; /* Center tiles */
+}
+
+.tile {
+  background: #444; /* Dark gray background for tiles */
+  border: 2px solid #555; /* Slightly lighter gray border */
+  border-radius: 5px;
+  padding: 15px;
+  margin: 10px;
+  width: 150px; /* Fixed width for tiles */
+  text-align: center;
+  transition: background 0.3s, transform 0.3s; /* Smooth background transition and transform */
+}
+
+.tile:hover {
+  background: #666; /* Lighter gray background on hover */
+  transform: scale(1.05); /* Slightly enlarge the tile */
+}
+
+.project {
+  margin-bottom: 15px;
+}
+
+.project-thumbnail {
+  width: 100%; /* Full width for thumbnails */
+  height: auto; /* Maintain aspect ratio */
+  max-height: 200px; /* Maximum height for thumbnails */
+  border-radius: 5px; /* Rounded corners for thumbnails */
+  margin-bottom: 10px; /* Spacing below thumbnails */
+}
+
+footer {
+  text-align: center;
+  padding: 10px 0;
+  background: #333; /* Dark background for footer */
+  color: white;
+}
