@@ -2,7 +2,7 @@ TASK 1 : RESPONSIVE LANDING PAGE
 
 PAGE NAME : Devkit
 
-WEBSITE: https://celadon-praline-88a248.netlify.app/
+WEBSITE: https://responsive-landing-page-nb.netlify.app
 
 
 DESCRIPTION:-
