@@ -2,7 +2,7 @@ TASK 2 : Stopwatch Web Application
 
 PAGE NAME : Stopwatch
 
-WEBSITE: stopwatch-exe.netlify.app
+WEBSITE: https://stopwatch-exe.netlify.app
 
 
 DESCRIPTION:-
